@@ -18,7 +18,7 @@ class BlogController extends Controller {
 	 *
 	 * @Route("blog/{slug}", name="blog_show")
 	 */
-	public funtion showAction($slug) {
+	public function showAction($slug) {
 		// $slug equals the dynamic part of the URL
 	}
 }
